@@ -15,6 +15,11 @@ html, body {
   overflow: hidden;
 }
 
+.content-row {
+  display: flex;
+  gap: 1rem;
+}
+
 .poster {
   display: flex;
   align-items: center;
@@ -65,7 +70,7 @@ html, body {
 
 .product {
   display: flex;
-  align-items: center;
+  align-items: end;
   width: 100%;
   height: calc(100vh - 10rem);
   position: relative;
@@ -76,7 +81,7 @@ html, body {
 
 .product-art {
   position: absolute;
-  right: 5vw;
+  right: 5rem;
   top: 0;
   height: 100%;
   aspect-ratio: 1 / 2;
@@ -84,7 +89,8 @@ html, body {
 }
 
 .product-container {
-  padding-inline-start: 5vw;
+  padding-inline-start: 5rem;
+  padding-bottom: 5rem;
 }
 
 .product-container h1 {
