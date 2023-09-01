@@ -1,0 +1,44 @@
+.searchbox {
+  width: 100%;
+  flex-grow: 1;
+  max-width: 40rem;
+  margin-inline-end: auto;
+  background-color: #fff;
+  border-radius: 2rem;
+  height: 4rem;
+  display: flex;
+  margin: 0.5rem 0;
+}
+
+.searchbox input[type="text"] {
+  border: none;
+  background-color: transparent;
+  padding-inline-start: 1.5rem;
+  color: #333;
+  font-size: 1.6rem;
+  outline: none;
+  flex-grow: 1;
+}
+
+.searchbox button {
+  width: 4rem;
+  height: 4rem;
+  line-height: 4rem;
+  background-color: transparent;
+  color: #333;
+  padding: 0 1rem;
+  flex-shrink: 0;
+  border: none;
+}
+
+.searchbox button[type="submit"] {
+  width: 5rem;
+  height: 3rem;
+  line-height: 3rem;
+  background-color: #0061e0;
+  border-radius: 2rem;
+  color: #fff;
+  padding: 0 1.5rem;
+  margin: 0.5rem;
+  margin-inline-start: 0;
+}
